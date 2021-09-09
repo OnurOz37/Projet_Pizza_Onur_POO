@@ -8,7 +8,7 @@ namespace Projet_PizzaOnur
 {
     public class Pizza
     {
-        protected string nom;
+        public string nom { get; init;  }
         public float prix { get; init; }
         public bool vegetarienne { get; init; }
 
